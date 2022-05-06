@@ -33,6 +33,7 @@
         <management.address>${node0}</management.address>
         <node0>127.0.0.1</node0>
         <testLogToFile>true</testLogToFile>
+        <plugin.fork.embedded>true</plugin.fork.embedded>
     </properties>
     
     <build>

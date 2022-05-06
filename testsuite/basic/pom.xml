@@ -55,15 +55,15 @@
     <build>                
         <plugins>
             <plugin>
-                <groupId>org.wildfly.plugins</groupId>
-                <artifactId>wildfly-maven-plugin</artifactId>
+                <groupId>org.jboss.eap.plugins</groupId>
+                <artifactId>eap-maven-plugin</artifactId>
                 <configuration>
                     <layers>
                         <layer>cloud-default-config</layer>
                     </layers>
-                    <provisioning-options>
+                    <galleon-options>
                         <jboss-fork-embedded>${plugin.fork.embedded}</jboss-fork-embedded>
-                    </provisioning-options>
+                    </galleon-options>
                     <record-provisioning-state>true</record-provisioning-state>
                 </configuration>
                 <executions>

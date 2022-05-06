@@ -46,7 +46,7 @@
         <version.org.eap>8.0.0.Alpha-DR2-redhat-SNAPSHOT</version.org.eap>
         <version.org.wildfly.core>18.0.1.Final-redhat-SNAPSHOT</version.org.wildfly.core>
         <version.org.wildfly.galleon-plugins>5.2.10.Final</version.org.wildfly.galleon-plugins>
-        <version.org.wildfly.maven.plugin>3.0.0.Final</version.org.wildfly.maven.plugin>
+        <version.org.jboss.eap.maven.plugin>1.0.0.Beta-redhat-SNAPSHOT</version.org.jboss.eap.maven.plugin>
     </properties>
 
     <dependencyManagement>
@@ -91,9 +91,9 @@
         <pluginManagement>
             <plugins>
                 <plugin>
-                    <groupId>org.wildfly.plugins</groupId>
-                    <artifactId>wildfly-maven-plugin</artifactId>
-                    <version>${version.org.wildfly.maven.plugin}</version>
+                    <groupId>org.jboss.eap.plugins</groupId>
+                    <artifactId>eap-maven-plugin</artifactId>
+                    <version>${version.org.jboss.eap.maven.plugin}</version>
                 </plugin>
                 <plugin>
                     <groupId>org.wildfly.galleon-plugins</groupId>
